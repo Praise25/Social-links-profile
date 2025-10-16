@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  border-radius: 50%;
+  width: calc(88rem / 16);
+  height: calc(88rem / 16);
+}
+
+.name {
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  font-size: calc(24em / 16);
+  line-height: 150%;
+  letter-spacing: 0px;
+  color: var(--white);
+  margin-bottom: 0;
+}
+
+.location {
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  font-size: calc(14em / 16);
+  line-height: 150%;
+  letter-spacing: 0px;
+  color: var(--green);
+  margin-top: 0;
+}
+
+.description {
+  font-family: Inter, sans-serif;
+  font-weight: 300;
+  font-size: calc(14em / 16);
+  line-height: 150%;
+  letter-spacing: 0px;
+  color: var(--white);
+}
