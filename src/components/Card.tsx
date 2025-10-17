@@ -1,11 +1,12 @@
 import classes from "./Card.module.css"
 import CardHeader from "./CardHeader"
+import CardContent from "./CardContent"
 
 export default function Card() {
   return (
     <div className={classes.container}>
       <CardHeader />
-      <h1>Card Content</h1>
+      <CardContent />
     </div>
   )
 }
