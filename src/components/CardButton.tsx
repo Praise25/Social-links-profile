@@ -8,12 +8,12 @@ type ButtonProps = {
 
 const buttonVariant: Variants = {
   initial: { backgroundColor: "#333333", transition: { duration: 0.5 } },
-  hover: { backgroundColor: "#c4f82a", transition: { duration: 0.5 } },
+  hover: { backgroundColor: "#c4f82a", transition: { duration: 0.25 } },
 };
 
 const textVariant: Variants = {
-  initial: { color: "#ffffff", transition: { duration: 0.5 } },
-  hover: { color: "#333333", transition: { duration: 0.5 } },
+  initial: { color: "#ffffff", transition: { duration: 0.25 } },
+  hover: { color: "#333333", transition: { duration: 0.25 } },
 };
 
 export default function CardButton({ buttonText, buttonLink }: ButtonProps) {
