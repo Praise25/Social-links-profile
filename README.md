@@ -39,6 +39,6 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@PraiseTheDev](https://www.twitter.com/yourusername)
-- LinkedIn - [@PraiseTheDev](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@Praise25](https://www.frontendmentor.io/profile/Praise25)
+- Twitter - [@PraiseTheDev](https://x.com/PraiseTheDev)
+- LinkedIn - [Anene Praise](https://www.linkedin.com/in/praise-anene-07776416a/)
