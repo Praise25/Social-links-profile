@@ -8,7 +8,6 @@
   color: var(--white);
   width: 100%;
   height: calc(51em / 16);
-  font-family: Inter, sans-serif;
   font-weight: 500;
   font-size: calc(14em / 16);
   line-height: 150%;
