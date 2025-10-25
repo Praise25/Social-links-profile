@@ -1,25 +1,16 @@
-.button {
-  display: flex;
-  border-radius: calc(8rem / 16);
-  background-color: #333333;
-  padding: 0;
-  border: none;
-  height: calc(55em / 16);
-  justify-content: center;
-  align-items: center;
-}
-
 .link-text {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: calc(8rem / 16);
+  background-color: #333333;
   text-decoration: none;
   color: var(--white);
   width: 100%;
-  height: 100%;
+  height: calc(51em / 16);
   font-family: Inter, sans-serif;
   font-weight: 500;
-  font-size: calc(17em / 16);
+  font-size: calc(14em / 16);
   line-height: 150%;
   letter-spacing: 0.2px;
   margin-top: 0;

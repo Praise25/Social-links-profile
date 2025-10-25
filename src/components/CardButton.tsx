@@ -6,31 +6,21 @@ type ButtonProps = {
   buttonLink: string;
 };
 
-const buttonVariant: Variants = {
-  initial: { backgroundColor: "#333333", transition: { duration: 0.5 } },
-  hover: { backgroundColor: "#c4f82a", transition: { duration: 0.25 } },
-};
-
 const textVariant: Variants = {
-  initial: { color: "#ffffff", transition: { duration: 0.25 } },
-  hover: { color: "#333333", transition: { duration: 0.25 } },
+  initial: { color: "#ffffff", backgroundColor: "#333333", transition: { duration: 0.5 } },
+  hover: { color: "#333333", backgroundColor: "#c4f82a", transition: { duration: 0.5 } },
 };
 
 export default function CardButton({ buttonText, buttonLink }: ButtonProps) {
   return (
-    <motion.button
-      className={classes.button}
-      variants={buttonVariant}
+    <motion.a
+      href={buttonLink}
+      className={classes["link-text"]}
+      variants={textVariant}
       animate="initial"
       whileHover="hover"
     >
-      <motion.a
-        href={buttonLink}
-        className={classes["link-text"]}
-        variants={textVariant}
-      >
-        {buttonText}
-      </motion.a>
-    </motion.button>
+      {buttonText}
+    </motion.a>
   );
 }
