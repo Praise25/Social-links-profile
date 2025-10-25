@@ -4,6 +4,7 @@
   background-color: var(--grey-800);
   padding: calc(40em / 16);
   border-radius: calc(12em / 16);
-  min-width: calc(304rem / 16);
-  min-height: calc(531rem / 16);
+  width: 19%;
+  height: 65.5%;
+  max-width: calc(304rem / 16);
 }
