@@ -12,13 +12,11 @@ const SOCIAL_LINKS_DATA = [
 export default function CardContent() {
   return (
     <ul className={classes["list-container"]}>
-      {[
-        SOCIAL_LINKS_DATA.map((data) => (
-          <li className={classes["list-item"]} key={data.id}>
-            <CardButton buttonText={data.name} buttonLink={data.link} />
-          </li>
-        )),
-      ]}
+      {SOCIAL_LINKS_DATA.map((data) => (
+        <li className={classes["list-item"]} key={data.id}>
+          <CardButton buttonText={data.name} buttonLink={data.link} />
+        </li>
+      ))}
     </ul>
   );
 }
