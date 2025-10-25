@@ -9,7 +9,7 @@
   width: 100%;
   height: calc(51em / 16);
   font-weight: 500;
-  font-size: calc(14em / 16);
+  font-size: var(--font-size-regular);
   line-height: 150%;
   letter-spacing: 0.2px;
   margin-top: 0;
