@@ -3,18 +3,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: calc(10rem / 16);
+  margin-bottom: 0.625rem;
 }
 
 .img {
   border-radius: 50%;
-  width: calc(88rem / 16);
-  height: calc(88rem / 16);
+  width: 5.5rem;
+  height: 5.5rem;
 }
 
 .name {
   font-weight: 500;
-  font-size: calc(24em / 16);
+  font-size: 1.5rem;
   line-height: 150%;
   letter-spacing: 0.5px;
   color: var(--white);
@@ -28,7 +28,7 @@
   letter-spacing: 0.2px;
   color: var(--green);
   margin-top: 0;
-  margin-bottom: calc(10rem / 16);
+  margin-bottom: 0.625rem;
 }
 
 .description {
