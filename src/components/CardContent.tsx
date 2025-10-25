@@ -1,5 +1,5 @@
 import CardButton from "./CardButton";
-import classes from "./CardContent.module.css"
+import classes from "./CardContent.module.css";
 
 const SOCIAL_LINKS_DATA = [
   { id: 1, name: "GitHub", link: "#" },
@@ -11,16 +11,14 @@ const SOCIAL_LINKS_DATA = [
 
 export default function CardContent() {
   return (
-    <div className={classes.container}>
+    <ul className={classes["list-container"]}>
       {[
         SOCIAL_LINKS_DATA.map((data) => (
-          <CardButton
-            key={data.id}
-            buttonText={data.name}
-            buttonLink={data.link}
-          />
+          <li className={classes["list-item"]} key={data.id}>
+            <CardButton buttonText={data.name} buttonLink={data.link} />
+          </li>
         )),
       ]}
-    </div>
+    </ul>
   );
 }

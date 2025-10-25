@@ -1,6 +1,13 @@
-.container {
+.list-container {
   display: flex;
-  flex-direction: column;
   flex: 2;
+  gap: 15px;
+  flex-direction: column;
   justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.list-item {
+  list-style-type: none;
 }
